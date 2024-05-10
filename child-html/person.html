@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header">
+        <img class="disney-logo" src="/./images/walt_disney_PNG19.png" alt="Here must be disney logo">
+        <img class="marvel-logo" src="/./images/afd8cdf291eecfca7586fc3c9922d648.png" alt="Here must be marvel logo">
+        <div class="header-search">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+        </div>
+        <nav class="nav">
+            <a href="/index.html">Home</a>
+            <a href="#">Characters</a>
+            <a href="comics.html">Comics</a>
+        </nav>
+    </header>
+
+    <div id="charactersContainer" class="container"></div>
+    <div id="comicsContainer" class="container" style="display: none;"></div>
+    <button id="loadMoreButton" class="load-more-button">Load More</button>
+    <footer class="footer">
+        
+        <button id="backButton" class="back-button" style="display: none;">Back</button>
+    </footer>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>

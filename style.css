@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center ;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  background-color: black;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.disney-logo {
+  height: 90%;
+  margin-left: 4%;
+}
+
+.marvel-logo {
+  height: 100%;
+  margin-left: 3%;
+}
+
+.nav {
+  display: flex;
+  gap: 35px;
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.nav a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Roboto;
+  transition: 0.6s;
+}
+
+.nav a:hover {
+  color: rgb(201, 17, 17);
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.marvel-history {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0;
+  width: 100%; 
+}
+
+.marvel-history-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 450px;
+}
+.marvel-image img {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 57px;
+}
+
+
+.marvel-info {
+  width: 60%;
+  font-family: Roboto;
+}
+
+.marvel-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.marvel-info p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.stan-lee-section {
+  font-family: Roboto;
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.stan-lee-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.stan-lee-image {
+  flex: 1;
+}
+
+.stan-lee-image img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.stan-lee-info {
+  flex: 2;
+  padding: 0 20px;
+  background-color: #ececec;
+  border-radius: 10px;
+}
+
+.stan-lee-info h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stan-lee-info p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.what-if {
+  background-color: #202020;
+  color: #fff;
+  padding: 50px 0;
+  width: 100%; 
+  font-family: Roboto
+}
+
+.what-if-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.what-if h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.what-if-description {
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.what-if-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.what-if img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
